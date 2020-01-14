@@ -1,0 +1,12 @@
+<div id="personell-display">
+    <h2>{{title}}</h2>
+    <div class="clients">
+        {{#each clients}}
+            <a class="client" id="article-{{this.id}}" href="/clients/{{this.id}}">
+                <img src="images/thumbnails/{{this.imagePath}}">
+                <p class="member-name">{{this.firstName}} {{this.lastName}}</p>
+            </a>
+        {{/each}}
+    </div>
+    <p>This is the list of clients using our services. If you would like to see some of our team, please visit <a href="/team">this</a> page.</p>
+</div>

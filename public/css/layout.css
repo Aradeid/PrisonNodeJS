@@ -1,0 +1,122 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    width: 100%
+}
+.page-header-top {
+    background-color: #4d4f51;
+    padding: 10px;
+    color: #EDE6E6;
+    font-size: 35px;
+}
+.page-header-top > * {
+    margin: auto;
+    display: block;
+    width: calc(100%);
+}
+.page-header-top > p {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+/* Main Area */
+.main-area {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Team & Clients */
+.personell-display ul {
+  list-style-type: none;
+}
+.rank-members, .clients {
+    display: flex;
+    flex-wrap: wrap;
+}
+.member, a.client {
+    margin-right: 50px;
+    margin-bottom: 20px;
+    width: 80px;
+}
+.member > *, a.client > * {
+    margin: auto;
+    display: block;
+}
+.member p, a.client p {
+    color: #4d4f51;
+    text-align: center;
+    
+}
+.member img, a.client img {
+    height: 100px; 
+}
+
+/* Guard & Client */
+.guard > *, div.client > * {
+    margin: auto;
+    display: block;   
+}
+.guard img, div.client img {
+    width: calc(100%);
+    padding-bottom: 30px;
+}
+
+/* Main */
+main {
+    flex: 1;
+    padding: 25px;
+}
+main > *:first-child {
+    margin-top: 0;
+}
+
+/* Sidebar */
+.page-sidebar {
+    padding: 10px;
+    border-top: 1px solid #000;
+}
+.page-sidebar > *:first-child {
+    margin-top: 0;
+}
+
+/* Footer */
+.page-footer {
+    padding: 10px;
+    background-color: #4d4f51;
+    border-top: 1px solid #000;
+    color: #EDE6E6;
+}
+
+@media only screen and (min-width: 600px) {
+    .page-header-top > * {
+        width: auto;
+    }
+    .main-area {
+        flex-direction: row;
+    }
+    .page-sidebar {
+        border-top: 0;
+        border-left: 1px solid #000;
+        width: calc(20%);
+    }
+    .guard, div.client {
+        padding-left: calc(5%);
+        padding-right: calc(5%);
+    }
+    .guard img, div.client img {
+        width: calc(80%);
+    }
+    main {
+        flex: 1;
+        padding: 25px;
+        padding-left: calc(5%);
+        padding-right: calc(5%);
+    }
+}

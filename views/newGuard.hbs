@@ -1,0 +1,10 @@
+<h2>{{title}}</h2>
+<h4>Debug page. Posted content is not verified for integrity and should not be used by normal users.</h4>
+<form id="new-guard-form" action="/add/guard" method="POST">
+    <input id="new-guard-first-name" type="text" name="firstName" placeholder="Guard's first name" maxlength="40" />
+    <input id="new-guard-last-name" type="text" name="lastName" placeholder="Guard's last name" maxlength="40" />
+    <input id="new-guard-title" type="text" name="title" placeholder="Guard's title" maxlength="40" />
+    <input id="new-guard-service-duration" type="text" name="serviceDuration" placeholder="Time in service (in years)" maxlength="40" />
+    <input id="new-guard-image" type="text" name="image" placeholder="image path" />
+    <input class="button" id="form-submit" type="submit" value="Submit" />
+</form>

@@ -1,0 +1,15 @@
+<section class="teaser-container">
+    {{#each headlines}}
+        <article class="teaser" id="article-{{this.id}}">
+            <h3 class="teaser-title">{{this.title}}</h3>
+            <p class="teaser-content">{{{shorten this.content}}} </p>
+            <a class="teaser-destination" href="/articles/{{this.id}}">CLICK HERE TO READ MORE</a>
+        </article>
+    {{/each}}
+    
+</section>
+<section class="page-counter">
+    <script src="/js/pageCountGenerator.js"></script>
+    <script type="text/javascript">var pageNr = {{pageNr}}; var totalPages = {{totalPages}}; $(document).ready(function(){ createPages(); });</script>
+    <ul class="pages"></ul>
+</section>

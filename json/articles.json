@@ -1,0 +1,218 @@
+[
+	{
+		"id": 0,
+		"date": 0,
+		"title": "Missing article",
+		"content": "If you are seeing this then something most definitely went wrong"
+	},
+	{
+		"id": 1,
+		"date": 1516554655,
+		"title": "Firt attempt at making a site",
+		"content": "Created the basic GET path; <br> Switched all formatting to HBS, for ease of layout; <br> Added first and default entries."
+	},
+	{
+		"id": 2,
+		"date": 1516568475,
+		"title": "CSS is now a thing",
+		"content": "Fixed CSS path-finding issue; <br> Added a proper TODO list, to improve planning; <br> Added the most basic layout site."
+	},
+	{
+		"id": 3,
+		"date": 1516883274,
+		"title": "Saving the TODO list, in case of future conceptual layout changes",
+		"content": "<ul><li>Create basic layout of page</li><li>Fill main page with development history<ul><li>Make articles 10 per page</li><li>Let user change per page count of articles</li></ul> </li> <li>Create 404 page address <ul><li>Create 404 page BLANK PRISONER image</li></ul> </li> <li>Create blank prisoner/guard page <ul> <li>Create autogenerator for said page</li> <li>Create database of prisoners/guards <ul><li>Connect database to html</li></ul> </li> </ul> </li> <li>Create autogenerating prison map based on above data</li> <li>Create application page <ul> <li>Validate e-mails client-side</li> <li>Validate entries server-side</li> </ul> </li> <li>Add randomized flavor text for logo subtext</li> <li>Add a floating TO TOP button</li> <li>Add voting system ad on sidebar <ul> <li>Implement voting system (data saved as JSON</li> <li>Add local storage file to avoid multiple votes from same PC</li> </ul> </li> <li>Colorize articles based on stripes of uniform</li> <li>Add an About Us history page as well as google location <ul><li>Add estimate from your location to prison</li></ul> </li> <li>Make the TODO list fade out when it reaches the end</li> </ul>"
+	},
+	{
+		"id": 4,
+		"date": 1516893079,
+		"title": "Added development messages to main page",
+		"content": "Made all these JSON objects appear in reverse order (blog-style) on the main page"
+	},
+	{
+		"id": 5,
+		"date": 1516895477,
+		"title": "Added pagination to the main page",
+		"content": "Now the main page only contains 10 articles at a time, also added links to other pages containing blog entries"
+	},
+	{
+		"id": 6,
+		"date": 1519758627,
+		"title": "Removed the articles from public",
+		"content": "Now the teasers are generated fully server-side only, and don't have to be available to the public"
+	},
+	{
+		"id": 7,
+		"date": 1523898867,
+		"title": "Finally returned to working on the project",
+		"content": "After many months finally found some willpower to keep working on what I started years ago. Hope I don't lose it again."
+	},
+	{
+		"id": 8,
+		"date": 1523898927,
+		"title": "Attempting to fix pagination",
+		"content": "You thought pagination actually works? You guessed wrong, and now I will do all in my power to fix that lie."
+	},
+	{
+		"id": 9,
+		"date": 1523898984,
+		"title": "Switching to parameters",
+		"content": "Switching pagination URLs from direct links to URI parameters. Keep in mind that at this point pagination doesn't even work."
+	},
+	{
+		"id": 10,
+		"date": 1523899220,
+		"title": "Fighting inner demons",
+		"content": "Fighting my sweet desire to give up entirely and fail everything. Also trying to fill this JSON file with more logs so I can actually check if a 10 pages format actually works."
+	},
+	{
+		"id": 11,
+		"date": 1523902264,
+		"title": "Pagination works!",
+		"content": "Had to remove the oh so beautiful negative array call, but thanks to it pagination works properly now. At least one problem is solved."
+	},
+	{
+		"id": 12,
+		"date": 1523902264,
+		"title": "Pagination works #2!",
+		"content": "Now pagination really truly finally works as intended. Next step is to make those oh so dreaded pages actually accessable."
+	},
+	{
+		"id": 13,
+		"date": 1523904398,
+		"title": "Beautify~",
+		"content": "Starting to use bootstrap. Time to make the website look the part."
+	},
+	{
+		"id": 14,
+		"date": 1525449502,
+		"title": "Partials",
+		"content": "Finally switching to partials. For too long have I kept my header, aside, and footer in the main. Now we can separate each part of the site into bite-sized chunks and edit them without being overly caucious of the context."
+	},
+	{
+		"id": 15,
+		"date": 1525453551,
+		"title": "Pagination works #3!",
+		"content": "Pages exist on front end. Now you can actually navigate the blog properly without knowing the exact url of the article you want to read. Not like someone will ever want to read these anyway."
+	},
+	{
+		"id": 16,
+		"date": 1525455289,
+		"title": "A Miracle",
+		"content": "The registration form actually worked on first try, even if with just the most basic functionality. It always takes me like 5 hours per feature. At long last, we have seen success."
+	},
+	{
+		"id": 17,
+		"date": 1525455877,
+		"title": "Endless agony",
+		"content": "Doubled the size of the TODO list to remind myself that I will never truly complete this project, and the site will never look the way I wanted it to, even if I had my whole life to do it."
+	},
+	{
+		"id": 18,
+		"date": 1525459415,
+		"title": "Registration complete",
+		"content": "Finished the client-side of the registration form validation, in record time, nonetheless. All that is left is to create an actual database and use it to validate the the request on the server side."
+	},
+	{
+		"id": 19,
+		"date": 1525712038,
+		"title": "Front End Article Creation",
+		"content": "At long last, I don't have to restart the server every time I write a new blog update. Furthermore, I can now write articles from the front end, with its id and date being autogenerated, instead of me writing them all manually each time."
+	},
+	{
+		"id": 20,
+		"date": 1525712181,
+		"title": "Fixed JSON",
+		"content": "Fixed the tabulation issue we had when rewriting JSON upon posting new articles."
+	},
+	{
+		"id": 21,
+		"date": 1525712606,
+		"title": "Input VS TextArea",
+		"content": "Replacing the content part of the new article registration form for a more user friendly experience.\r\nHoping that everything will work as intended."
+	},
+	{
+		"id": 22,
+		"date": 1525715481,
+		"title": "Fixed New Line Handling",
+		"content": "Now the new line is handled correctly when converted from JSON to HTML.\r\nHopefully this is the last we will see of the article parser."
+	},
+	{
+		"id": 23,
+		"date": 1525716285,
+		"title": "Pagination Works #4",
+		"content": "Added dots between large gaps of page numbers to show that there is something between them.\r\nNo way to test it at the moment since we only have 3 pages right now and the program requires at least 5 to function as expected, and I am not gonna pop these articles just for the sake of spamming the page. I am actually trying to be mostly consistent here."
+	},
+	{
+		"id": 24,
+		"date": 1525717881,
+		"title": "Abandoning Bootstrap",
+		"content": "I don't know who said that Bootstrap can make anything look great, but I guess they haven't seen people without a sense of taste. No matter what I try with Bootstrap I get an awful monstrosity. I will instead be playing with pure CSS, begging Google for help every 15 seconds of working with it."
+	},
+	{
+		"id": 25,
+		"date": 1525720851,
+		"title": "CSS Magic #1",
+		"content": "Attempted some CSS sorcery, and if you could believe it, it's not utterly awful as I expected. Who could have thought? Gave me hope to try more. Can the rest of the website please look just as fine???"
+	},
+	{
+		"id": 26,
+		"date": 1525957696,
+		"title": "package.json",
+		"content": "Created a package.json file.\r\nNow the project is more mobile and actually submitable for the university."
+	},
+	{
+		"id": 27,
+		"date": 1525959851,
+		"title": "Flavor Text",
+		"content": "Now the title includes a random flavor text to make the site appear less boring and unrefined"
+	},
+	{
+		"id": 28,
+		"date": 1525960657,
+		"title": "Attempting to make a database",
+		"content": "Trying to use the nano database. Seems simple enough and doesn't require a schema and such. Even advertised on the express.js website."
+	},
+	{
+		"id": 29,
+		"date": 1525962880,
+		"title": "Database Failure",
+		"content": "For whatever reason even the simplest connection to the nano database results in failure, not to mention actually including some data into it. So we will continue our journey in finding a suitable database for our usage."
+	},
+	{
+		"id": 30,
+		"date": 1525963024,
+		"title": "Attempting to make a database #2",
+		"content": "So my hours of searching have gotten me to lowdb. It saves everything in .json, meaning it is actually transferable and won't be lost when I submit this project. Hopefully this one will actually work with REST."
+	},
+	{
+		"id": 31,
+		"date": 1525965617,
+		"title": "Database Works",
+		"content": "Seems like lowdb, despite its name, actually works and fits very well in our current implementation. There is a small lack of understanding, as queries function differently from their SQL counterparts, but I will figure it all out with time. Now I can finally add prisoners and guards."
+	},
+	{
+		"id": 32,
+		"date": 1525972351,
+		"title": "More Content!",
+		"content": "Added 16 guards and 8 prisoners. Will add more if time allows. Should focus on submitting the project in time for now."
+	},
+	{
+		"id": 33,
+		"date": 1525973324,
+		"title": "CSS Magic #2",
+		"content": "Worked some more with CSS. Still looks terrible, but at least not awful."
+	},
+	{
+		"id": 34,
+		"date": 1525980528,
+		"title": "Personnel Exists",
+		"content": "The Personnel page is now a thing and not just a broken button. Not only that, but it actually has all the content I have planned for it. It even has CSS, which doesn't look that as awful as I expected. Now we gotta finish the guard template, the prisoner template, as well as somehow integrate the prisoner list into the site, make it all fully responsive, and we can submit it."
+	},
+	{
+		"id": 35,
+		"date": 1525985298,
+		"title": "Despair",
+		"content": "Finished the clients list, as well as each guard's and prisoner's personal page, but they are so lazy and ugly that I would rather not have done them at all. I have one hour left to submit this project. My body is starting to give in."
+	}
+]

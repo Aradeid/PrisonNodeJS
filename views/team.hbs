@@ -1,0 +1,19 @@
+<div id="personell-display">
+    <h2>{{title}}</h2>
+    <ul>
+        {{#each personell}}
+            <li>
+                <h4>{{this.name}}:</h4>
+                <div class="rank-members">
+                    {{#each this.members}}
+                        <a class="member" id="article-{{this.id}}" href="/guards/{{this.id}}">
+                            <img src="images/thumbnails/{{this.imagePath}}">
+                            <p class="member-name">{{this.firstName}} {{this.lastName}}</p>
+                        </a>
+                    {{/each}}
+                </div>
+            </li>
+        {{/each}}
+    </ul>
+    <p>This is the list of guards in our prison. If you would like to see some of our prisoners, please visit <a href="/clients">this</a> page.</p>
+</div>

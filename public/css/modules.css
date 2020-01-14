@@ -1,0 +1,93 @@
+/* Teaser */
+.teaser {
+    margin-bottom: 5px;
+    padding-left: 15px;
+    border: 3px dashed #ccc;
+    background-color: #595555;
+    color: #F6ECEC;
+}
+.teaser img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.teaser-destination {
+    text-decoration: underline;
+    color: #EDE6E6;
+    margin-top: -5px;
+}
+.teaser a:hover {
+    text-decoration: none;
+}
+.teaser-content {
+    padding-right: 20;
+    padding-top: 10px;
+}
+
+.pages {
+    text-align: center; 
+}
+.pages .page {
+    display: inline;
+    padding: 5px;
+    color: #595555;
+}
+.pages .page a {
+    color: inherit;
+}
+.pages .page a:hover {
+    background-color: #595555;
+    color: #F6ECEC;
+}
+
+@media only screen and (min-width: 600px) {
+    .teaser-container {
+        display: flex;
+        flex-direction: column;
+        margin: 0 -20px;
+    }
+    .teaser {
+        margin-bottom: 15px;
+        width: calc(100%) - 80px;
+        flex-shrink: 0;
+        max-width: none;
+    }
+    .teaser-content {
+        padding: 20px;
+        padding-top: 10px;
+    }
+}
+
+/* Form */
+
+input[type="text"],
+input[type="email"],
+button,
+textarea {
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    font-size: inherit;
+    font-family: inherit;
+}
+textarea {
+    resize: none;
+}
+.form-field {
+    margin: 7px 0;
+}
+
+button {
+    border: 2px solid #4d4f51;
+    background-color: #4d4f51;
+    color: #fff;
+    transition: background-color 0.1s linear, color 0.1s linear;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #fff;
+    color: #EDE6E6;
+}
